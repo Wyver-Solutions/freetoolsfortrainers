@@ -3,9 +3,11 @@ layout: page
 title: List of tools
 permalink: /list/
 ---
-Disclaimer: Inclusion in this list does not imply a recommendation. Each situation is different and so you may need to experiment or get personal advice.
+<p class="center">Disclaimer: Inclusion in this list does not imply a recommendation.</p>
 
-<table id="toolslist">
+<p class="center">Each situation is different and so you may need to experiment or get personal advice.</p>
+
+<table width="100%" id="toolslist">
     <thead>
         <th>Name</th>
         <th>Categories</th>

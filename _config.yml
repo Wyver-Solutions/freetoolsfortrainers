@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Free tools for trainers
 email: mberthelemy@wyversolutions.co.uk
+company: Wyver Solutions Ltd
 description: 
     Free tools to help trainers get started with online learning with minimal risk.
 baseurl: "" # the subpath of your site, e.g. /blog

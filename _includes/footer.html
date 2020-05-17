@@ -1,36 +1,32 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+<footer id="footer">
+    
+      <div class="col_12">
+        <hr class="alt1" />
+        
+        <div class="col_6">
+          <p>Brought to you by <a href="https://www.wyversolutions.co.uk" target="_blank">{{- site.company | escape -}}</a></p>
+          <p>{{- site.description | escape -}}</p>
+        </div>
+        <div class="col_6"></div>
+        <div class="row">
+        <div class="col_6">
+        <h4>Website built with:</h4>
+            <p><a href="http://www.99lime.com" target="_blank">HTML KickStart</a> - Ultra–Lean HTML5, CSS, &amp; JS building blocks for rapid website production</p>
+            <p><a href="https://revealjs.com/#/" target="_blank">Reveal JS</a> - the HTML presentation framework</p>
+            <p><a href="https://jekyllrb.com/" target="_blank">Jekyll</a> - static site builder</p>
+          </div>
+          <div class="col_6">
+            <h4>License</h4>
+          <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+          </p>
+          <p><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a></p>
+          <p>Find the <a href="https://github.com/Wyver-Solutions/presentations.wyversolutions.co.uk" target="_blank">source code on Github</a></p>
+        </div>
+        <div class="col_6">
+        </div>
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-        <p>Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>, <a href="https://pages.github.com/" target="_blank">Github Pages</a> and <a href="https://datatables.net/" target="_blank">Datatables.net</a>
-      </div>
-    </div>
-
-  </div>
-
+          </div>
+        </div>
+    
+    
 </footer>
