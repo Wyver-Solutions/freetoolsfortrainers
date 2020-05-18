@@ -855,6 +855,7 @@ div .portrait img {
         top: 10px;
         left:10px;
         cursor: hand;
+        color: #dcdcdc;
     }
 
     .section-icon {
